@@ -1,0 +1,11 @@
+name: 'setup-container-struture-test'
+description: 'setup container-struture-test'
+author: 'DPVO'
+inputs:
+  version: 
+    required: true
+    description: 'Version of container-struture-test'
+    default: '1.0.10'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
