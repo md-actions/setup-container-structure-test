@@ -1,19 +1,19 @@
-# setup GitHub CLI
-[![LICENSE](https://img.shields.io/github/license/md-actions/setup-github-cli)](https://github.com/md-actions/setup-github-cli/blob/main/LICENSE)
+# setup docker container structure test tool
+[![LICENSE](https://img.shields.io/github/license/md-actions/setup-container-structure-test)](https://github.com/md-actions/setup-container-structure-test/blob/main/LICENSE)
 
-GitHub CLI is the command line tool of GitHub ([see the manual](https://cli.github.com/manual/)).
+GitHub CLI is the command line tool of used to test the structure of Docker Container ([see the manual](https://github.com/GoogleContainerTools/container-structure-test)).
 
 This action sets up GitHub CLI tool. It downloads GitHub CLI binaries from https://github.com/cli/cli/releases and adds path to PATH
 
    
 # Usage
-## Set up default GitHub CLI version (2.0.0)
+## Set up default container structure test version (1.10.0)
 ```yaml
-- uses: md-actions/setup-github-cli@v1
+- uses: md-actions/setup-container-structure-test@v1
 ```
 ## Set up specific GitHub CLI version
 ```yaml
-- uses: md-actions/setup-github-cli@v1
+- uses: md-actions/setup-setup-container-structure-test@v1
   with:
-    version: 1.8.1
+    version: 1.10.0
 ```
