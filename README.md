@@ -3,7 +3,7 @@
 
 GitHub CLI is the command line tool of used to test the structure of Docker Container ([see the manual](https://github.com/GoogleContainerTools/container-structure-test)).
 
-This action sets up GitHub CLI tool. It downloads GitHub CLI binaries from https://github.com/cli/cli/releases and adds path to PATH
+This action sets up container-structure-test tool. It downloads the binary from https://github.com/GoogleContainerTools/container-structure-test and adds path to PATH
 
    
 # Usage
@@ -13,7 +13,7 @@ This action sets up GitHub CLI tool. It downloads GitHub CLI binaries from https
 ```
 ## Set up specific GitHub CLI version
 ```yaml
-- uses: md-actions/setup-setup-container-structure-test@v1
+- uses: md-actions/setup-container-structure-test@v1
   with:
     version: 1.10.0
 ```
