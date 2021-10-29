@@ -11,7 +11,7 @@ This action sets up container-structure-test tool. It downloads the binary from 
 ```yaml
 - uses: md-actions/setup-container-structure-test@v1
 ```
-## Set up specific GitHub CLI version
+## Set up specific structure test version
 ```yaml
 - uses: md-actions/setup-container-structure-test@v1
   with:
