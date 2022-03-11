@@ -1,3 +1,6 @@
+# [DEPRECATED]
+This action has moved to https://github.com/freenet-actions/setup-container-structure-test
+
 # setup docker container structure test tool
 [![LICENSE](https://img.shields.io/github/license/md-actions/setup-container-structure-test)](https://github.com/md-actions/setup-container-structure-test/blob/main/LICENSE)
 
